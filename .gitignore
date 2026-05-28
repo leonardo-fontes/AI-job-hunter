@@ -1,0 +1,14 @@
+node_modules
+dist
+
+.env
+
+storage/
+
+data/
+
+logs/
+
+profile.config.json
+
+.DS_Store

@@ -1,1 +1,3 @@
-console.log("Hello, World!");
+import { runWorker } from "./worker";
+
+runWorker();

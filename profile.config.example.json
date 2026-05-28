@@ -1,0 +1,21 @@
+{
+  "role": "Software Engineer",
+  "summary": "Experienced software engineer.",
+  "skills": ["React", "TypeScript"],
+  "yearsOfExperience": 3,
+  "preferredWorkModel": "remote",
+  "minimumSalary": "5000 USD yearly",
+  "acceptedRoles": [
+    "Software Engineer"
+  ],
+  "positiveSignals": [
+    "remote",
+    "typescript"
+  ],
+  "negativeSignals": [
+    "on-site"
+  ],
+  "rejectedKeywords": [
+    "wordpress"
+  ]
+}
