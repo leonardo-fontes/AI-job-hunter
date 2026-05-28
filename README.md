@@ -137,9 +137,6 @@ LinkedIn Scraper
 → OpenAI Analysis
 → SQLite Persistence
 → CLI Management
-```
-
-````
 
 ---
 
