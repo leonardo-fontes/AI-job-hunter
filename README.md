@@ -132,7 +132,6 @@ This will execute the project every day at 7:00 AM.
 
 # Workflow
 
-```txt
 LinkedIn Scraper
 → Local Filters
 → OpenAI Analysis
@@ -152,7 +151,7 @@ After the first successful login, you can make Playwright run without opening th
 
 Inside:
 
-```txt
+
 src/linkedin/scraper.ts
 ````
 
@@ -188,7 +187,7 @@ Example:
 
 You can fully customize the matching logic using:
 
-```txt
+
 profile.config.json
 ```
 
