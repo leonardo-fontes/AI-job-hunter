@@ -73,7 +73,7 @@ Run job hunter now
 
 5. After login, the session will be persisted automatically in:
 
-```txt
+
 storage/linkedin.json
 ```
 
