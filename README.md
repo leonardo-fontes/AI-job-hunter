@@ -64,7 +64,6 @@ pnpm jobs
 
 2. Select:
 
-```txt
 Run job hunter now
 ```
 
