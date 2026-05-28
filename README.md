@@ -156,12 +156,11 @@ Change:
 
 
 headless: false;
-```
 
 To:
 
 headless: true;
-```
+
 
 This is recommended for automation environments.
 
@@ -195,8 +194,3 @@ Including:
 - remote preferences
 - accepted/rejected keywords
 
-```
-
-
-
-```
