@@ -148,19 +148,21 @@ After the first successful login, you can make Playwright run without opening th
 
 Inside:
 
-
+```txt
 src/linkedin/scraper.ts
-````
+```
 
 Change:
 
-
-headless: false;
+```ts
+headless: false
+```
 
 To:
 
-headless: true;
-
+```ts
+headless: true
+```
 
 This is recommended for automation environments.
 
@@ -182,7 +184,7 @@ Example:
 
 You can fully customize the matching logic using:
 
-
+```txt
 profile.config.json
 ```
 
@@ -193,4 +195,3 @@ Including:
 - salary expectations
 - remote preferences
 - accepted/rejected keywords
-
