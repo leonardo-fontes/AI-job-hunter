@@ -168,17 +168,6 @@ This is recommended for automation environments.
 
 ---
 
-## Run automatically every day
-
-You can optionally use cron to execute the worker daily.
-
-Example:
-
-```cron
-0 7 * * * cd /job-agent && /usr/bin/pnpm jobs >> /job-agent/logs/cron.log 2>&1
-```
-
----
 
 ## Customize your profile
 
