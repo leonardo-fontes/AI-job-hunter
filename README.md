@@ -154,13 +154,12 @@ src/linkedin/scraper.ts
 
 Change:
 
-```ts
+
 headless: false;
 ```
 
 To:
 
-```ts
 headless: true;
 ```
 
