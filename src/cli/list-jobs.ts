@@ -1,12 +1,12 @@
-import { initDatabase } from "./database/client";
-import { listAnalyzedJobs } from "./database/jobs-repository";
-import { runMigrations } from "./database/migrations";
+import { initDatabase } from "../database/client";
+import { listRecentAnalyzedJobs } from "../database/jobs-repository";
+import { runMigrations } from "../database/migrations";
 
 async function main() {
   await initDatabase();
   runMigrations();
 
-  const jobs = listAnalyzedJobs();
+  const jobs = listRecentAnalyzedJobs();
 
   if (jobs.length === 0) {
     console.log("No saved jobs found.");

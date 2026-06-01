@@ -7,7 +7,8 @@
     "dev": "tsx src/index.ts",
     "jobs": "tsx src/cli/index.ts",
     "jobs:list": "tsx src/cli/list-jobs.ts",
-    "jobs:status": "tsx src/cli/update-job-status.ts"
+    "jobs:status": "tsx src/cli/update-job-status.ts",
+    "worker": "tsx src/index.ts"
   },
   "keywords": [],
   "author": "",

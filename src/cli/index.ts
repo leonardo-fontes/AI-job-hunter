@@ -1,6 +1,6 @@
 import { input, select } from "@inquirer/prompts";
 import { initDatabase } from "../database/client";
-import { listAnalyzedJobs, updateJobStatus } from "../database/jobs-repository";
+import { listRecentAnalyzedJobs, updateJobStatus } from "../database/jobs-repository";
 import { runMigrations } from "../database/migrations";
 
 import { JobStatus } from "../types/job";
@@ -18,7 +18,7 @@ async function listJobs() {
   await initDatabase();
   runMigrations();
 
-  const jobs = listAnalyzedJobs();
+  const jobs = listRecentAnalyzedJobs();
 
   if (jobs.length === 0) {
     console.log("\nNo saved jobs found.\n");
